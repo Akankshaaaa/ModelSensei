@@ -1,6 +1,6 @@
 # ModelSensei - AI-Powered ML Model Recommendation System
 
-ModelSensei is an intelligent system that helps developers and data scientists find the perfect machine learning model for their specific use case. By analyzing your requirements, data characteristics, and constraints, it provides personalized model recommendations powered by AI.
+ModelSensei is an intelligent system that helps developers and data scientists find the perfect machine learning model for their specific use case. By analyzing your requirements, data characteristics, and constraints, it provides personalized model recommendations powered by LLMs.
 
 ## Features
 * Interactive form-based requirements gathering
@@ -15,7 +15,6 @@ ModelSensei is an intelligent system that helps developers and data scientists f
 * React
 * TypeScript
 * Tailwind CSS
-* Framer Motion
 * React Router
 
 ### Backend:
@@ -85,7 +84,7 @@ backend/
 │ ├── models.py # Data models
 │ └── utils.py # Utility functions
 ├── data/
-│ └── vectordb/ # FAISS vector database
+│ └── vectordb/ # vector database
 └── requirements.txt # Python dependencies
 ```
 
